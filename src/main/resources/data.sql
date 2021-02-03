@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS dummy;
+
+CREATE TABLE dummy (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  dummy_name VARCHAR(250) NOT NULL,
+  dummy_age INTEGER NOT NULL
+);
