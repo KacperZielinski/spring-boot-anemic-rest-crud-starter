@@ -7,7 +7,7 @@ Simple anemic model for typical REST CRUD applications.
 * Spring Data JPA
 * H2
 * Lombok
-
+* Mapstruct
 * Mockito
 
 ### Build
@@ -20,7 +20,6 @@ Simple anemic model for typical REST CRUD applications.
 ```mvn spring-boot:run```
 
 ### Future
-* Mapstruct
 * Liquibase/Flyway
 * Dockerize
 * Tests
