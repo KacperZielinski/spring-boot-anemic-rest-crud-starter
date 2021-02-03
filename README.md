@@ -16,10 +16,17 @@ Simple anemic model for typical REST CRUD applications.
 ### Test
 ```mvn test```
 
-### Deploy
-```mvn spring-boot:run```
+### Run
+```mvn spring-boot:run``` 
+
+or
+
+```java -jar target/spring-boot-anemic-rest-crud-starter-0.0.1-SNAPSHOT.jar```
 
 ### Future
 * Liquibase/Flyway
 * Dockerize
 * Tests
+    * Spock
+    * TestNG
+    * Testcontainers
